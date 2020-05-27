@@ -51,6 +51,69 @@
                 recibe cobros desde la tarjeta de crédito.
             </p>
         </article>
+
+        <br />
+        <br />
+
+        <article id="diagramaDeClases">
+
+            <h2>Diagrama de clases</h2>
+
+            <div class="imagen">
+                <img id="diagrama" title="Clic para ampliar" src="img/diagrama clases UML.jpg" alt="No image"
+                    onclick="cambiarTamano()" />
+            </div>
+
+            <p>
+                Este diagrama de clases fue proporcionado como ayuda durante el examen, muestra todas las clases del
+                programa, sus funciones y variables con toda la metainformación sobre la clase. Una de las clases se
+                añadió después del examen, no salía originalmente ya que era optativa de programar.
+            </p>
+
+            <div class="clasesDiagrama">
+                <h3>RicksyBusiness</h3>
+                <p>
+                    La clase RicksyBusiness es la principal, la que contiene el método main e instancia el resto de
+                    clases
+                    para su simulación de fiesta.
+                </p>
+
+                <h3>GuestDispatcher</h3>
+                <p>
+                    GuestDispatcher es la interfaz que implementan las clases UfosPark, CrystalExpender y RickMenu,
+                    contiene un único método que es el que se encarga de vender/alquilar su servicio.
+                </p>
+
+                <h3>Receptivo</h3>
+                <p>
+                    La clase Receptivo es la que itera sobre los objetos de tipo GuestDispatcher y llama al único método
+                    de la interfaz, simula la máquina que recoge los datos de las tarjetas de crédito y les cobra y
+                    vende los servicios oportunos.
+                </p>
+
+                <h3>UfosPark</h3>
+                <p>
+                    La clase UfosPark quizás es la más complicada ya que tiene más métodos con una lógica más compleja.
+                    Esta clase guarda en un objeto de tipo HashhMap&lt;&gt; los OVNIs y a quién tienen asignado.
+                </p>
+
+                <h3>CrystalExpender y RickMenu</h3>
+                <p>
+                    Las clases CrystalExpender y RickMenu són prácticamente idénticas, ambas tienen una cantidad de
+                    stock disponible y con el método dispatch venden su contenido al precio indicado por cada tarjeta de
+                    crédito.
+                </p>
+
+                <h3>CreditCard</h3>
+                <p>
+                    La clase CreditCard es la que representa las tarjetas de crédito de los integrantes de la fiesta,
+                    todos empiezan con una cantidad inicial de monedas para poder gastar, durante la ejecución del
+                    método main cada persona gasta cantidades diferentes de monedas y se pueden ver las diferentes
+                    situaciones que pueden suceder.
+                </p>
+            </div>
+
+        </article>
         </section>
 
         
