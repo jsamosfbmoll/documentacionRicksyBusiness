@@ -84,3 +84,29 @@ aside {
     padding: 10%;
     float: left;
 }
+
+.imagen {
+    text-align: center;
+}
+
+#diagrama {
+    cursor: pointer;
+}
+
+#diagrama {
+    height: 50%;
+    width: 50%;
+}
+
+.clasesDiagrama {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.clasesDiagrama > h3:hover {
+    border-left: 3px rgb(240, 127, 127) solid;
+}
+
+.clasesDiagrama > p:hover {
+    border-left: 3px rgb(81, 163, 240) solid;
+}
