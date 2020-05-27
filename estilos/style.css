@@ -134,3 +134,23 @@ aside {
     text-decoration: none;
     color: rgb(10, 6, 65);
 }
+
+footer {
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(61, 57, 57);
+    color: white;
+}
+
+footer > p {
+    display: inline;
+    margin-right: 30%;
+}
+
+footer > div { display: inline; }
+
+footer > div > a { text-decoration: none; }
+
+footer > div > a:visited { color: aquamarine; }
+
+footer > div > a:active { color: blueviolet; }
