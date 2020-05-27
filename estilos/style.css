@@ -6,3 +6,63 @@ body {
     background-color: rgb(198, 198, 238);
 }
 
+nav {
+    margin-top: 1%;
+    padding-left: 2%;
+    background-image: linear-gradient(rgb(94, 92, 92), rgb(167, 161, 161));
+    position: sticky;
+    top: 0;
+}
+
+nav > div {
+    display: inline;
+    padding: 1%;
+}
+
+nav > div > p {
+    padding: 1%;
+    display: inline-block;
+    color: gainsboro;
+    margin-right: 2%;
+    background-color: black;
+}
+
+nav > div > p:hover {
+    background-color: rgb(103, 136, 136);
+    color: black;
+    border-radius: 25%;
+}
+
+#botonPegado {
+    position: absolute;
+    right: 5%;
+}
+
+#botonPegado > p {
+    padding: 10%;
+}
+
+#botonPegado > p:hover {
+    cursor: pointer;
+}
+
+nav > div > div {
+    display: none;
+}
+
+nav > div:hover > div {
+    display: inline;
+}
+
+nav > div > div > a {
+    text-decoration: none;
+    color: beige;
+    margin: 1%;
+    padding: 1%;
+    background-color: black;
+}
+
+nav > div > div > a:hover {
+    background-color: rgb(103, 136, 136);
+    border-radius: 15%;
+}
