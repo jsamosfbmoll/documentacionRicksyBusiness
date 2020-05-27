@@ -66,3 +66,21 @@ nav > div > div > a:hover {
     background-color: rgb(103, 136, 136);
     border-radius: 15%;
 }
+
+header {
+    text-align: center;
+    padding: 2%;
+}
+
+section {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+aside { 
+    background-image: url("../img/rickymorty.png");
+    background-size: cover;
+    padding: 10%;
+    float: left;
+}
