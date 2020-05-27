@@ -1,4 +1,5 @@
 let imagenGrande = false;
+let navPegado = true;
 
 function cambiarTamano() {
 
@@ -19,3 +20,17 @@ function cambiarTamano() {
     }
 }
 
+function pegar() {
+    let botonNav = document.querySelector("#botonPegado > p");
+    let nav = document.querySelector("nav");
+    if (navPegado) {
+        botonNav.textContent = "Pegar";
+        navPegado = false;
+        nav.style.position = "static";
+        
+    } else {
+        botonNav.textContent = "Despegar";
+        navPegado = true;
+        nav.style.position = "sticky";
+    }
+}
