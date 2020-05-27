@@ -110,3 +110,27 @@ aside {
 .clasesDiagrama > p:hover {
     border-left: 3px rgb(81, 163, 240) solid;
 }
+
+#divEnlace {
+    margin-top: 4%;
+    text-align: center;
+}
+
+#divEnlace > a > div {
+    display: inline-block;
+    border: 5px rgb(83, 83, 81) outset;
+    font-size: larger;
+    padding: 2%;
+    background-color: rgb(157, 158, 154);
+    transition: 0.5s;
+}
+
+#divEnlace > a > div:hover {
+    background-color: rgb(54, 148, 11);
+    color: azure;
+}
+
+#divEnlace > a {
+    text-decoration: none;
+    color: rgb(10, 6, 65);
+}
